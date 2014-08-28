@@ -1,0 +1,25 @@
+body {
+  padding-top: 5%;	
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;  
+  margin-left:35%;
+}
+.jumbotron{
+	padding: 40px 15px;
+  	text-align: center;  
+  	margin-left:0%;
+  	width:100%;	
+}
+.leftHalf{ width: 20%; float: left}
+.rightHalf{ width: 80%; float: left; padding-left:3%; }
+
+@media (max-width: 320px){
+.leftHalf{ width: 100%; color: red; }
+.rightHalf{ width: 100%; color: blue; }
+}
+
+h4{
+	color:black;
+}
